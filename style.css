@@ -1,0 +1,511 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif
+}
+#logo{
+    color: #284dff;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 28px 28px;
+    letter-spacing: 1px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 30px;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+li a{
+    text-decoration: none;
+    color: #040404;
+    font-size: 18px;
+    font-weight: 500;
+}
+#SignButton{
+    background-color: rgba(40,77,255,255);
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    color: white;
+    letter-spacing: 1px;
+    border: 0px;
+}
+#SignButton:hover{
+    cursor: pointer;
+    background-color: #2346f5;
+}
+.headDetails{
+    margin: 50px 80px;
+}
+hr{
+    height: 2px;
+    background-color: #efefef;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.index-form h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: -50px;
+
+}
+.index-form p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #b2b2b2;
+    margin-left: -50px;
+}
+#getStartBtn{
+    background-color: #284dff;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 14px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+    margin-left: -50px;
+}
+#getStartBtn:hover{
+    cursor: pointer;
+    background-color: #1a3de7;
+}
+#learnMoreBtn{
+    background-color: #d5dbff;
+    color: #385aff;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 14px;
+    letter-spacing: 1px;
+}
+#learnMoreBtn:hover{
+    cursor: pointer;
+    background-color: #bcc5f7;
+}
+.image{
+    height: 500px;
+    width: 800px;
+    margin-right: 40px;
+    background-color: #2346f5;
+    margin-top: 50px;
+    border-radius: 24px;
+    background-image: url(front-page-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+
+/*login-form*/
+.email-login .form-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fbfaf9;
+  width: 330px;
+  height: 360px;
+}
+.email-login .form-box h1{
+    text-align: center;
+}
+.email-login .form-box p{
+    color: #979cb8;
+    text-align: center;
+}
+.email-login .form-box input{
+    background-color: #f5f5f5;
+    border: none;
+}
+.email-login .form-box label{
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+}
+.email-login .form-box input{
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding:  5px 10px;
+}
+.email-login .form-box button{
+    display: block;
+    margin-top: 10px;
+    background-color: #2d4bff;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.email-login .form-box button:hover{
+  background-color: #1c34d6;
+  cursor: pointer;
+}
+.email-login .form-box a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #3c6dfd;
+}
+
+/*phone-login-form*/
+.phoneno-login .form-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fbfaf9;
+  width: 330px;
+  height: 400px;
+}
+.phoneno-login .form-box h1{
+    text-align: center;
+}
+.phoneno-login .form-box p{
+    color: #979cb8;
+    text-align: center;
+}
+.phoneno-login .form-box input{
+    background-color: #f5f5f5;
+    border: none;
+}
+.phoneno-login .form-box label{
+  font-size: 14px;
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.phoneno-login .form-box input{
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding:  5px 10px;
+}
+.phoneno-login .form-box button{
+    display: block;
+    margin-top: 10px;
+    background-color: #2d4bff;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.phoneno-login .form-box button:hover{
+  background-color: #1c34d6;
+  cursor: pointer;
+}
+.phoneno-login .form-box a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #3c6dfd;
+}
+
+/*email-login-form*/
+.email-login .form-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #fbfaf9;
+    width: 330px;
+    height: 400px;   
+}
+.email-login h1{
+    text-align: center;
+}
+.email-login p{
+    text-align: center;
+    color: #979cb8;
+}
+.email-login label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 6px;
+}
+.email-login input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    padding:  5px 10px;
+}
+.email-login a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #3c6dfd;    
+    margin-top: 10px;
+}
+.email-login button{
+    display: block;
+    margin-top: 20px;
+    background-color: #2d4bff;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.email-login button:hover{
+  background-color: #1c34d6;
+  cursor: pointer;
+}
+.email-login #a2{
+    text-align: center;
+    text-decoration: none;
+    color: #3c6dfd;
+}
+
+/*forget-email*/
+.forget-email .form-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fbfaf9;
+  width: 330px;
+  height: 300px;
+}
+.forget-email h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.forget-email label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-bottom: 6px;
+}
+.forget-email input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+}
+.forget-email input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    margin-top: 6px;
+}
+.forget-email button{
+    display: block;
+    margin-top: 20px;
+    background-color: #2d4bff;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.forget-email button:hover{
+  background-color: #1c34d6;
+  cursor: pointer;
+}
+.forget-email p{
+    color: #979cb8;
+    text-align: center;
+}
+.forget-email a{
+    color: #3c6dfd;
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+    text-align: right;
+}
+
+/*forget-phoneno*/
+.forget-phoneno .form-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fbfaf9;
+  width: 330px;
+  height: 300px;
+}
+.forget-phoneno h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.forget-phoneno label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-bottom: 6px;
+}
+.forget-phoneno input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+}
+.forget-phoneno input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    margin-top: 6px;
+}
+.forget-phoneno button{
+    display: block;
+    margin-top: 20px;
+    background-color: #2d4bff;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.forget-phoneno button:hover{
+  background-color: #1c34d6;
+  cursor: pointer;
+}
+.forget-phoneno p{
+    color: #979cb8;
+    text-align: center;
+}
+.forget-phoneno a{
+    color: #3c6dfd;
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+    text-align: right;
+}
+
+/*signup-form*/
+.signup-form .form-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fbfaf9;
+  width: 330px;
+  height: 500px;
+}
+.signup-form h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.signup-form label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-bottom: 6px;
+}
+.signup-form input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+}
+.signup-form input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    margin-top: 6px;
+}
+.signup-form button{
+    display: block;
+    margin-top: 20px;
+    background-color: #2d4bff;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.signup-form button:hover{
+  background-color: #1c34d6;
+  cursor: pointer;
+}
+.signup-form p{
+    color: #979cb8;
+    text-align: center;
+}
+.signup-form a{
+    color: #3c6dfd;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/*term-condition-page*/
+.term-condition .term-condition-details{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.term-condition h1 {
+    color: #2b7de9;
+    font-size: 28px;
+}
+.term-condition h2{
+    margin-top: 25px;
+    color: #333;
+    font-size: 20px;
+}
+.term-condition p{
+    margin: 12px 0;
+}
+.term-condition ul{
+    margin: 10px 0 10px 20px;
+}
+.term-condition footer{
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
