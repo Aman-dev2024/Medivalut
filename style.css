@@ -106,6 +106,160 @@ hr{
     background-size: cover;   
 }
 
+/*feature-section*/
+.index-form .features h2{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+.index-form .boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.index-form .box1 .box1-image{
+    height: 80px;
+    width: 80px;
+    margin: 5px 150px;
+    background-image: url(box1-image.png);
+    background-size: contain;
+    background-position: center;
+}
+.index-form .box1{
+    height: 250px;
+    width: 400px;
+    background-color: #f1eeeb;
+    text-align: center;
+    border-radius: 16px;
+}
+.index-form .box1:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.3);
+}
+.index-form .box1 h3{
+    font-size: 20px;
+}
+.index-form .box1 p{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.index-form .box2 .box2-image{
+    height: 80px;
+    width: 80px;
+    margin: 5px 150px;
+    background-image: url(box2-image.png);
+    background-size: contain;
+    background-position: center;
+}
+.index-form .box2{
+    height: 250px;
+    width: 400px;
+    background-color: #f1eeeb;
+    text-align: center;
+    border-radius: 16px;
+}
+.index-form .box2:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.3);
+}
+.index-form .box2 h3{
+    font-size: 25px;
+}
+.index-form .box2 p{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.index-form .box3 .box3-image{
+    height: 80px;
+    width: 80px;
+    margin: 5px 150px;
+    background-image: url(box3-image.png);
+    background-size: contain;
+    background-position: center;
+}
+.index-form .box3{
+    height: 250px;
+    width: 400px;
+    background-color: #f1eeeb;
+    text-align: center;
+    border-radius: 16px;
+}
+.index-form .box3:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.3);
+}
+.index-form .box3 h3{
+    font-size: 25px;
+}
+.index-form .box3 p{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.index-form #hr2{
+    height: 2px;
+    background-color: #efefef;
+    margin-top: 200px;
+}
+
+.index-form .fotter-section{
+    margin-left: 20px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.index-form .first-section h4{
+    color:#284dff;
+    font-size: 25px;
+    margin: 50px 20px;
+}
+.index-form .first-section p{
+    margin: 0px 20px;
+}
+
+.index-form .second-section h4{
+    font-size: 20px;
+}
+.index-form .second-section li a{
+    text-decoration: none;
+    color: #808080;
+}
+.index-form .second-section li{
+    list-style: none;
+    margin-left: -40px;
+    padding: 5px;
+}
+.index-form .third-section h4{
+    font-size: 20px;
+}
+.index-form .third-section li a{
+    text-decoration: none;
+    color: #808080;
+}
+.index-form .third-section li{
+    list-style: none;
+    margin-left: -40px;
+    padding: 5px;
+}
+
+.index-form .fourth-section h4{
+    font-size: 20px;
+}
+.index-form .fourth-section li a{
+    text-decoration: none;
+    color: #808080;
+    display: flex;
+}
+.index-form .fourth-section li{
+    list-style: none;
+    margin-left: -40px;
+    padding: 5px;
+}
 /*login-form*/
 .email-login .form-box{
   position: absolute;
@@ -353,6 +507,62 @@ hr{
     text-align: right;
 }
 
+/*forget-email-otp*/
+.forget-email-otp .container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fbfaf9;
+  width: 330px;
+  height: 300px;
+}
+.forget-email-otp h1{
+    text-align: center;
+    margin-top: 0;
+}
+.forget-email-otp p{
+    color: #979cb8;
+    text-align: center;
+}
+.forget-email-otp input{   
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    text-align: center;
+    border:  1px solid #ddd;
+    border-radius: 6px;
+}
+.forget-email-otp .timer{
+    color: #979cb8;
+    text-align: center;
+    margin-top: 15px;
+}
+.forget-email-otp .resend-otp{
+    color: #2b7de9;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.forget-email-otp button{
+    display: block;
+    margin-top: 20px;
+    background-color: #2d4bff;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.forget-email-otp button:hover{
+    cursor: pointer;
+    background-color: #1c34d6;
+}
+
 /*forget-phoneno*/
 .forget-phoneno .form-box{
   position: absolute;
@@ -415,6 +625,61 @@ hr{
     margin-top: 5px;
     display: block;
     text-align: right;
+}
+/*forget-email-otp*/
+.forget-phoneno-otp .container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fbfaf9;
+  width: 330px;
+  height: 300px;
+}
+.forge-phoneno-otp h1{
+    text-align: center;
+    margin-top: 0;
+}
+.forget-phoneno-otp p{
+    color: #979cb8;
+    text-align: center;
+}
+.forget-phoneno-otp input{   
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    text-align: center;
+    border:  1px solid #ddd;
+    border-radius: 6px;
+}
+.forget-phoneno-otp .timer{
+    color: #979cb8;
+    text-align: center;
+    margin-top: 15px;
+}
+.forget-phoneno-otp .resend-otp{
+    color: #2b7de9;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.forget-phoneno-otp button{
+    display: block;
+    margin-top: 20px;
+    background-color: #2d4bff;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.forget-phoneno-otp button:hover{
+    cursor: pointer;
+    background-color: #1c34d6;
 }
 
 /*signup-form*/
